@@ -5,7 +5,6 @@
 }
 
 body{
-    /*font-family: 'Comfortaa', cursive;*/
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -50,4 +49,19 @@ h1, h2, h3, h4, h5, h6{
 
 .logo:hover path{
     fill: #0093A1;
+}
+
+.header__btl{
+    text-transform: uppercase;
+    color:#ffffff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+
+    box-sizing: border-box;
+    width: 193px;
+    height: 43px;
+    background: #262C27;
+
 }
