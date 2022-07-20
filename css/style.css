@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6{
     background-image: url("../images/header-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header__top{
@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6{
     padding: 57px 0;
     gap: 100px;
     justify-content: flex-end;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
 }
 
 .logo path{
@@ -49,19 +53,32 @@ h1, h2, h3, h4, h5, h6{
 
 .logo:hover path{
     fill: #0093A1;
+    transition: fill .3s ease;
 }
 
 .header__btl{
     text-transform: uppercase;
     color:#ffffff;
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 22px;
 
-    box-sizing: border-box;
-    width: 193px;
-    height: 43px;
-    background: #262C27;
+    padding: 12px 71px;
+    background-color: #262C27;
+    border: none;
+    cursor: pointer;
+}
 
+.header__content{
+    min-height: calc(100vh - 161px);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.header__content-box{
+    max-width: 550px;
+    text-align: center;
+    margin-right: 30px;
+    color: #fff;
+}
+.header__decor-text{
+    position: absolute;
+    top: 0;
 }
